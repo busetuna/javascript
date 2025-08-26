@@ -44,4 +44,16 @@ console.log(5 == "5"); // İçindeki değerler aynı olduğu için true döner.
 
 console.log(5 === "5") // ! false döner çünkü birisi string birisi number.
 
- 
+// * Diyalog kutuları : Popup'ta gösterilir.
+
+alert("Merhaba");
+
+// * Prompt(): Kullanıcıdan bilgi almak için kullanılır.
+
+let isim1 = prompt("İsminizi girin: ");
+console.log(isim1);
+
+// * confirm: Onay kutusu gösterir.
+
+let onay = confirm("Devam etmek istiyor musunuz?");
+console.log(onay);
